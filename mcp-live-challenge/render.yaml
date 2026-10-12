@@ -3,5 +3,6 @@ services:
     name: live-mcp-challenge
     runtime: python
     plan: free
+    rootDir: mcp-live-challenge
     buildCommand: pip install -r requirements.txt
     startCommand: python server.py
